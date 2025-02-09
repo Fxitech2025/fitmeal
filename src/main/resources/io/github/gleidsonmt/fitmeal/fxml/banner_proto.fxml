@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+
+<StackPane prefHeight="301.0" prefWidth="678.0" style="-fx-background-color: #fa6401;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="287.0" translateY="3.0" StackPane.alignment="BOTTOM_CENTER">
+         <children>
+            <SVGPath content="M 114 95 C 117 95 120 95 123 95 C 118 95 118 91 114 91" fill="WHITE" layoutX="-100.0" scaleX="8.0" scaleY="8.0" StackPane.alignment="CENTER_RIGHT" />
+            <SVGPath content="M 114 95 C 114 95 112 95 105 95 C 110 95 110 91 114 91 L 114 91" fill="WHITE" scaleX="8.0" scaleY="8.0" StackPane.alignment="CENTER_LEFT">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+            </SVGPath>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="32.0" prefWidth="210.0" spacing="20.0" style="-fx-background-color: white;" StackPane.alignment="CENTER">
+               <StackPane.margin>
+                  <Insets bottom="1.0" />
+               </StackPane.margin>
+               <children>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="10.0" prefWidth="30.0" style="-fx-background-color: #fa6401; -fx-background-radius: 100px;" />
+                  <VBox layoutX="110.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" style="-fx-background-color: #dfdfe0; -fx-background-radius: 100px;" />
+                  <VBox layoutX="115.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" style="-fx-background-color: #dfdfe0; -fx-background-radius: 100px;" />
+                  <VBox layoutX="120.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" style="-fx-background-color: #dfdfe0; -fx-background-radius: 100px;" />
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </children>
+</StackPane>

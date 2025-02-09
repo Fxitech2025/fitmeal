@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" prefHeight="200.0" prefWidth="700.0" style="-fx-background-color: #fa6401;" stylesheets="@../css/shapes.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="383.0" style="-fx-background-color: white; -fx-background-position: right;" StackPane.alignment="CENTER_RIGHT">
+         <children>
+            <Polygon fill="#c55001" points="75.0, 240.0, 146.0, 240.0, -50.0, -60.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+         <styleClass>
+            <String fx:value="trapeze" />
+            <String fx:value="img-test" />
+         </styleClass>
+      </VBox>
+      <AnchorPane>
+         <children>
+            <Polygon fill="#c55001" layoutX="158.0" layoutY="83.0" points="-11.0, -5.0, 34.0, -23.0, 0.0, -60.0" stroke="TRANSPARENT" strokeType="INSIDE">
+               <effect>
+                  <DropShadow height="76.69" radius="36.9925" spread="0.6" width="73.28">
+                     <color>
+                        <Color red="0.772549033164978" green="0.3137255012989044" blue="0.003921568859368563" opacity="0.28999999165534973" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Polygon>
+            <VBox layoutX="93.0" layoutY="92.0" prefHeight="7.0" prefWidth="184.0" AnchorPane.leftAnchor="93.0" AnchorPane.topAnchor="92.0">
+               <children>
+                  <Text fill="#000000aa" strokeType="OUTSIDE" strokeWidth="0.0" text="30% Off">
+                     <font>
+                        <Font name="Poppins Black" size="55.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="10.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fitness Meal">
+                     <font>
+                        <Font name="Poppins Regular" size="31.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <Polygon fill="#c55001" layoutX="65.0" layoutY="274.0" points="-10.0, -21.0, 16.0, -27.0, 0.0, -60.0" rotate="121.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,63 @@
+#body {
+        -fx-background-color: -fx-background;
+        -fx-accent:  #fa6401;
+        -fx-second: #c85002;
+        -fx-text-fill: -text-color;
+
+}
+
+Text, .label .text, .text{
+    -fx-fill: -text-color;
+    -fx-font-family: Poppins;
+}
+
+#search-bar {
+    -fx-background-color: -light-gray;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-hgap: 10px;
+}
+
+#search-bar > .text-field {
+    -fx-background-color: transparent;
+}
+
+.banner {
+     -fx-background-color: green;
+        /* -fx-background-image : url("../img/baixados.jpg");
+         -fx-background-size : contain;
+         -fx-background-position : right;
+         -fx-background-repeat : no-repeat;
+         */
+}
+
+.box-left {
+     -fx-background-color: red;
+}
+
+.box-right {
+  -fx-shape : "M 114 95 V 91 L 108 91 L 110 95";
+}
+
+.custom-tri {
+    -fx-background-color: -fx-second;
+    -fx-shape: "M 114 95 V 95 L 108 91 L 111 95";
+}
+
+.custom-left {
+    -fx-shape: "M 114 95 V 95 L 108 91 L 111 95";
+}
+
+.trapeze-custom{
+    -fx-background-color: -fx-accent;
+  -fx-shape :  "M 114 95 V 95 L 108 91 L 5000 95";
+}
+
+.box-left {
+    -fx-background-color: -fx-accent;
+}
+
+
+.slider-block-right {
+
+}

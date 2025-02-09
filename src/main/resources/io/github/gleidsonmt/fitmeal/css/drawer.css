@@ -1,0 +1,26 @@
+
+#drawer {
+    -fx-background-color: -fx-background;
+    -fx-accent:  #fa6401;
+    -fx-second: #c85002;
+    -fx-background-color: -light-gray;
+
+}
+
+.drawer-item {
+    -fx-background-color: transparent;
+    -fx-border-width: 0px 4px 0px 0px;
+    -fx-border-color: transparent;
+    -fx-padding: 10 10px 10px 10px;;
+    -fx-border-insets: 10px -1px 10px 0px;
+}
+
+.drawer-item:selected {
+    -fx-border-color: -fx-accent;
+    -fx-border-width: 0px 3px 0px 0px;
+    -fx-border-insets: 10px -1px 10px 0px;
+}
+
+.drawer-item:selected .icon-container .icon {
+    -fx-fill: -fx-accent;
+}

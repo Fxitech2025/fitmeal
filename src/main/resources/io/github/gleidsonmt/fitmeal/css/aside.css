@@ -1,0 +1,55 @@
+#aside {
+        -fx-background-color: -fx-background;
+        -fx-accent:  #fa6401;
+        -fx-second: #c85002;
+        -fx-background-color: -light-gray;
+
+}
+
+#aside .separator {
+    -fx-min-height: 22px;
+}
+
+#aside .separator .line {
+    -fx-pref-height: 3px;
+    -fx-padding: 0px 1px;
+    -fx-background-color: -light-gray-2;
+    -fx-border-insets: 0px;
+
+}
+
+#btn-check .text {
+    -fx-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+#btn-check {
+    -fx-background-color: -fx-accent;
+    -fx-pref-height: 45px;
+}
+
+#promo {
+    -fx-pref-height: 70px;
+    -fx-border-color: -fx-accent;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-color: derive(-fx-accent, 100%);
+        -fx-graphic-text-gap: 25px;
+}
+
+#promo .button .text,
+#promo .button .icon-container .icon {
+    -fx-fill: white;
+}
+
+#promo .button{
+    -fx-graphic-text-gap: 15px;
+    -fx-pref-height: 30px;
+    -fx-border-color: -fx-accent;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: -fx-accent;
+    -fx-font-weight: bold;
+}
