@@ -8,7 +8,10 @@
 [//]: # (![Build]&#40;https://img.shields.io/badge/Build-2.2.24+258-gold.svg?style=for-the-badge&#41;)
 [![License](https://img.shields.io/github/license/Gleidson28/GNDecorator.svg?style=for-the-badge)](https://github.com/gleidsonmt/GNDecorator/blob/master/LICENSE)
 
-#### ⚠️  *** Doesn't use this design to build an commercial app.. The whole concept isn't mine.. you can see the original [here](https://dribbble.com/shots/16867110/attachments/11928652?mode=media) The idea is you can use this structure to build your dash and to show you can build beauty Uis using Javafx. ***
+## 🔮Tools 
+#### JavaFx 17.0.1 + gradle 8.8
+
+#### ⚠️  *** Doesn't use this design to build an commercial app. The whole concept isn't mine. You can see the original [here](https://dribbble.com/shots/16867110/attachments/11928652?mode=media) The idea is you can use this structure to build your dash and to show you can build beauty Uis using Javafx. ***
 <h1>JavaFx Ui</h1>
 <p>
   <img src="./fitmeal.png"  />
